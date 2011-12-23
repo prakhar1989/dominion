@@ -1,0 +1,165 @@
+/* CSS Styles */
+body{
+  font-size:87.5%;
+  font-size:14px;
+  line-height:1.5em;
+  color: #fff;
+  background: url(images/bluebg.jpg) repeat;
+}
+
+p{
+  font-size:87.5%;
+  font-size:14px;
+  line-height:1.5em;
+  color: #fff;
+}
+a { color: #ca4641;}
+a:hover {
+  text-decoration:underline;
+  color: #ca4641;
+}
+h1{
+  margin:0 0 20px 0;
+  padding:0;
+  font-size:2em;}
+
+h2{
+  padding:0;
+  color:#ca4641;
+}
+
+#header {
+  margin: 25px auto;
+  width: 765px;
+}
+
+/*ACCORDION*/
+#accordion-1{
+  width:800px;
+  margin: 0px auto;
+  height:245px;
+  padding:30px;
+}
+.easy-accordion{
+  display:block;
+  position:relative;
+  overflow:hidden;
+  padding:0;
+  margin:0;
+}
+.easy-accordion dt,.easy-accordion dd{
+  margin:0;
+  padding:0;
+}
+.easy-accordion dt,.easy-accordion dd{
+  position:absolute;
+}
+.easy-accordion dt{
+  margin-bottom:0;
+  margin-left:0;
+  z-index:5;
+  /* Safari */ -webkit-transform: rotate(-90deg);
+  /* Firefox */ -moz-transform: rotate(-90deg);
+  -moz-transform-origin: 20px 0px;
+  /* Internet Explorer */ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  cursor:pointer;
+}
+.easy-accordion dd{
+  z-index:1;
+  opacity:0;
+  overflow:hidden;
+}
+.easy-accordion dd.active{
+  opacity:1;
+}
+.easy-accordion dd.no-more-active{z-index:2;
+  opacity:1;
+}
+.easy-accordion dd.active{
+  z-index:3;
+}
+.easy-accordion dd.plus{
+  z-index:4;
+}
+#accordion-1 dl{
+  width:800px;
+  height:245px;
+}	
+#accordion-1 dt{
+  height:46px;
+  line-height:44px;
+  text-align:right;
+  padding:0 15px 0 0;
+  font-size:1.1em;
+  font-weight:bold;
+  font-family:  Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  background:#fff url(images/slide-title-inactive-1.jpg) 0 0 no-repeat;
+  color:#ca4641;
+}
+#accordion-1 dt.active{
+  cursor:pointer;
+  color:#fff;
+  background: url(images/slide-title-active2.gif) 0 0 no-repeat;
+}
+#accordion-1 dt.hover{
+  color:#233c43;
+}
+#accordion-1 dt.active.hover{
+  color:#fff;
+}
+#accordion-1 dd{
+  padding:25px;
+  background:url(images/footer_bg.png) bottom left repeat;
+  border-left:0;
+  margin-right:3px;
+}
+/* #accordion-1 .slide-number{ */
+/*   color:#68889b; */
+/*   left:10px; */
+/*   font-weight:bold; */
+/* } */
+/* #accordion-1 .active .slide-number{ */
+/*   color:#fff; */
+/* } */
+#accordion-1 a{
+  color:#68889b;
+}
+#accordion-1 dd img{
+  float:right;
+  margin:0 0 0 30px;
+}
+
+/* FOOTER */
+#footer{
+  position: absolute;
+  bottom:0px;
+  width: 100%;
+  background: url(images/footer_bg.png) repeat;
+  color: #fff;
+  font-size: 9px;
+}
+
+#footer p{
+  padding: 10px;
+  margin: 0px auto;
+}
+
+.floatright{
+  float: right;
+}
+
+.floatleft{
+  float: left;
+}
+
+.fb-like{
+  position:absolute;
+  top: 0px;
+  width: 70px;
+  height: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
