@@ -1,4 +1,5 @@
 /* CSS Styles */
+html { overflow: auto;}
 body{
   font-size:87.5%;
   font-size:14px;
@@ -13,10 +14,10 @@ p{
   line-height:1.5em;
   color: #fff;
 }
-a { color: #ca4641;}
+a { color: #8aaab2;}
 a:hover {
   text-decoration:underline;
-  color: #ca4641;
+  color: #8aaab2;
 }
 h1{
   margin:0 0 20px 0;
@@ -25,7 +26,7 @@ h1{
 
 h2{
   padding:0;
-  color:#ca4641;
+  color:#8aaab2;
 }
 
 #header {
@@ -96,7 +97,8 @@ h2{
   text-transform:uppercase;
   letter-spacing:1px;
   background:#fff url(images/slide-title-inactive-1.jpg) 0 0 no-repeat;
-  color:#ca4641;
+  background:#fff ;
+  color:#8aaab2;
 }
 #accordion-1 dt.active{
   cursor:pointer;
