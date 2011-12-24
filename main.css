@@ -10,6 +10,11 @@ body{
   background: url(images/bluebg.jpg) repeat;
 }
 
+#header {
+  margin: 25px auto;
+  width: 765px;
+}
+
 /*TYPE*/
 p{
   font-size:87.5%;
@@ -19,7 +24,24 @@ p{
   margin-bottom: 1.6em;
 }
 a { color: #8aaab2;}
-
+ul li{
+  color: #fff;
+  padding: 5px;
+  list-style-type: none;
+}
+.email{
+  color: #8aaab2;
+  text-decoration: underline;
+}
+.date,.money {
+  font-style: italic;
+  color: #8aaab2;
+  padding: 0px 5px;
+}
+.time{
+  margin:0px;
+  padding: 0px;
+}
 a:hover {
   text-decoration:underline;
   color: #8aaab2;
@@ -34,11 +56,14 @@ h2{
   color:#8aaab2;
 }
 
-#header {
-  margin: 25px auto;
-  width: 765px;
+.closelist li{
+  list-style-type: none;
+  padding: 0px;
 }
-
+.insidelist li{
+  list-style-type: circular;
+  padding: 2px;
+}
 /*ACCORDION*/
 #accordion-1{
   width:800px;
@@ -174,18 +199,18 @@ h2{
 
 
 /*SCROLLBAR*/
-#scrollbar1 { width: 500px; margin: 10px 0 10px; }
-#scrollbar1 .viewport { width: 480px; height: 170px; overflow: hidden; position: relative; }
-#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
-#scrollbar1 .scrollbar{  position: relative; background-position: 0 0; float: right; width: 15px; }
-#scrollbar1 .track {  height: 100%; width:10px; position: relative; padding: 0 1px; }
-#scrollbar1 .thumb { background: transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+.scrollbar1 { width: 500px; margin: 10px 0 10px; }
+.scrollbar1 .viewport { width: 480px; height: 170px; overflow: hidden; position: relative; }
+.scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+.scrollbar1 .scrollbar{  position: relative; background-position: 0 0; float: right; width: 15px; }
+.scrollbar1 .track {  height: 100%; width:10px; position: relative; padding: 0 1px; }
+.scrollbar1 .thumb { background: transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
   height: 20px;
   width: 25px;
   cursor: pointer;
   overflow: hidden;
   position: absolute;
   top: 0; left: -10px; }
-#scrollbar1 .thumb .end {  overflow: hidden; height: 5px; width: 25px; }
-#scrollbar1 .disable { display: none; }
+.scrollbar1 .thumb .end {  overflow: hidden; height: 5px; width: 25px; }
+.scrollbar1 .disable { display: none; }
 

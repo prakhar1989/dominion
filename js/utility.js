@@ -3,6 +3,6 @@ $(document).ready(function () {
       slideNum: false
 	});
 
-  $('#scrollbar1').tinyscrollbar();
+  $('.scrollbar1').tinyscrollbar();
 });
 
