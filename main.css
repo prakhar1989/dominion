@@ -1,4 +1,6 @@
-/* CSS Styles */
+/* Author: Prakhar Srivastav */
+/* Repo: http://www.github.com/prakhar1989/dominion */
+
 html { overflow: auto;}
 
 body{
@@ -24,6 +26,7 @@ p{
   margin-bottom: 1.6em;
 }
 a { color: #8aaab2;}
+
 ul li{
   color: #fff;
   padding: 5px;
@@ -56,6 +59,9 @@ h2{
   color:#8aaab2;
 }
 
+h3 {
+  color: #fff;
+}
 .closelist li{
   list-style-type: none;
   padding: 0px;
@@ -64,6 +70,17 @@ h2{
   list-style-type: circular;
   padding: 2px;
 }
+
+.spl {
+  color: #8aaab2;
+  font-style: bold;
+}
+
+.testinglist {
+  padding: 0px;
+  margin: 0px;
+}
+
 /*ACCORDION*/
 #accordion-1{
   width:800px;
