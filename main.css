@@ -13,7 +13,7 @@ body{
 }
 
 #header {
-  margin: 25px auto;
+  margin: 5px auto;
   width: 765px;
 }
 
@@ -31,6 +31,11 @@ ul li{
   color: #fff;
   padding: 5px;
   list-style-type: none;
+}
+
+.rules li{
+  list-style-type: disc;
+  padding-top: 8px;
 }
 .email{
   color: #8aaab2;
@@ -60,32 +65,52 @@ h2{
 }
 
 h3 {
+  margin: 0px;
+  padding : 0px;
   color: #fff;
 }
-.closelist li{
-  list-style-type: none;
+.spl, .listL3 li {
+  color: #8aaab2;
+  font-style: italic;
+  margin: 0px;
   padding: 0px;
 }
-.insidelist li{
-  list-style-type: circular;
-  padding: 2px;
-}
 
-.spl {
-  color: #8aaab2;
-  font-style: bold;
+.listL3 li{
+  list-style-type: disc;
 }
-
 .testinglist {
   padding: 0px;
-  margin: 0px;
+  margin-bottom: 10px;
+}
+.first{
+  padding-bottom: 10px;
+}
+.sublist{
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.listL1{
+  margin:0px;
+  padding: 0px;
+}
+
+.listL0{
+  margin:0px;
+  padding:0px;
+}
+
+.r2{
+  border-top: 1px solid #8aaab2;
+  padding-top: 20px;
 }
 
 /*ACCORDION*/
 #accordion-1{
-  width:800px;
+  width:850px;
   margin: 0px auto;
-  height:245px;
+  height:335px;
   padding:30px;
 }
 .easy-accordion{
@@ -130,8 +155,8 @@ h3 {
   z-index:4;
 }
 #accordion-1 dl{
-  width:800px;
-  height:245px;
+  width:850px;
+  height:335px;
 }	
 #accordion-1 dt{
   height:46px;
@@ -150,7 +175,8 @@ h3 {
 #accordion-1 dt.active{
   cursor:pointer;
   color:#fff;
-  background: url(images/slide-title-active2.gif) 0 0 no-repeat;
+  background: #8aaab2;
+  /* background: url(images/slide-title-active2.gif) 0 0 no-repeat; */
 }
 #accordion-1 dt.hover{
   color:#233c43;
@@ -203,7 +229,7 @@ h3 {
   float: left;
 }
 .footer {
-  width: 800px;
+  width: 850px;
 }
 .fb-like{
   position:absolute;
@@ -217,7 +243,7 @@ h3 {
 
 /*SCROLLBAR*/
 .scrollbar1 { width: 500px; margin: 10px 0 10px; }
-.scrollbar1 .viewport { width: 480px; height: 170px; overflow: hidden; position: relative; }
+.scrollbar1 .viewport { width: 480px; height: 260px; overflow: hidden; position: relative; }
 .scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
 .scrollbar1 .scrollbar{  position: relative; background-position: 0 0; float: right; width: 15px; }
 .scrollbar1 .track {  height: 100%; width:10px; position: relative; padding: 0 1px; }
